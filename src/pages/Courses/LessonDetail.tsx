@@ -29,7 +29,7 @@ export default function LessonDetail() {
   const completed = isCompleted(courseId!, lesson.id);
 
   return (
-    <div className="min-h-screen p-4 max-w-3xl mx-auto">
+    <div className="min-h-screen p-4 max-w-3xl mx-auto mt-14">
       <button className="mb-4 text-blue-600" onClick={()=>navigate(-1)}>Back</button>
       <div className="bg-white p-4 rounded shadow">
         <h2 className="text-xl font-bold">Bài {lesson.order}: {lesson.title}</h2>

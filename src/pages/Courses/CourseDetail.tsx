@@ -47,7 +47,7 @@ export default function CourseDetail() {
 
   return (
     <div className="min-h-screen p-4 max-w-4xl mx-auto">
-      <div className="rounded-lg overflow-hidden">
+      <div className="rounded-lg overflow-hidden mt-14">
         {course.cover && <img src={course.cover} alt={course.title} className="w-full h-48 object-cover" />}
         <div className="p-4 bg-white">
           <h2 className="text-2xl font-bold">{course.title}</h2>

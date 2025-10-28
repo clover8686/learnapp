@@ -2,5 +2,6 @@
 # run code: 
   npm install 
   npm run dev
-login: admin@admin.com    pass: 123456
+#login: 
+admin@admin.com    pass: 123456
 
